@@ -17,15 +17,14 @@ The Pokémon dataset contains base statistics for Pokémon across generations wi
 
 ## Getting Started
 
-Running the notebook in VS Code with Python + Jupyter extensions installed:
+Download and install [Anaconda Distribution](https://www.anaconda.com/download), then open `notebooks/notebook.ipynb` with Jupyter Notebook. Then, run the cells.
 
-```
-# create a new virtual environment
-python3 -m venv .venv
+The notebook uses the following libraries:
 
-# activate the virtual environment
-source .venv/bin/activate
+- pandas
+- matplotlib
+- seaborn
+- ipywidgets
 
-# install
-pip3 install -r requirements.txt
-```
+If any library is missing, follow Anaconda's package installation guide:
+https://www.anaconda.com/docs/tools/anaconda-org/installing-packages
